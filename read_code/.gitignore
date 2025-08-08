@@ -1,0 +1,4 @@
+.vscode
+build
+typey-type-full.h
+pico_sdk_import.cmake
