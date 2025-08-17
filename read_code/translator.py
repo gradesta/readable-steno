@@ -15,7 +15,7 @@ typedef struct {
 } Entry;
           
 typedef struct {
-    const Entry *steno_dict;
+    const Entry *steno_entries;
     const uint32_t size;    
 } Dictionary;
 
@@ -36,5 +36,5 @@ const Entry steno_entries[] = {""",
     print("};", file = f)
 
     print(f"""
-const Dictionary steno_dict = {{ &steno_entries, {len(data)} }};
+const Dictionary steno_dict = {{ steno_entries, {len(data)} }};
           """, file=f)

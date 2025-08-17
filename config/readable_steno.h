@@ -17,7 +17,7 @@ constexpr uint8_t COLUMN_PINS[] = {7, 6, 5, 4, 3, 2, 29, 28, 27, 26, 22, 20};
 constexpr uint8_t ROW_PINS[] = {12, 13, 14};
 
 // clang-format off
-constexpr int8_t KEY_MAP[3][16] = {
+constexpr int8_t KEY_MAP[3][12] = {
   { 0,  1,  2,  3,  4,  5, /**/  6,  7,  8,  9,  10, 11 },
   { 12, 13, 14, 15, 16, 17, /**/ 18, 19, 20, 21, 22, 23 },
   { -1, -1, -1, 24, 25, 26, /**/ 27, 28, 29, -1, -1, -1 },
