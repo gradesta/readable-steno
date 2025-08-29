@@ -38,4 +38,6 @@ int key_to_led(uint8_t key, bool final) {
             case 'R': return 10;
         }
     }
+
+    return -1;
 }

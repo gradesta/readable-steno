@@ -22,15 +22,15 @@ void clear() {
     gpio_put(LED_PIN, true);
     for (int i = 0; i < SIZE; i++) {
         gpio_put(SRCLK, true);
-        sleep_ms(10);
+        sleep_us(1);
         gpio_put(SRCLK, false);
-        sleep_ms(10);
+        sleep_us(1);
     }
 
     gpio_put(RCLK, true);
-    sleep_ms(10);
+    sleep_us(1);
     gpio_put(RCLK, false);
-    sleep_ms(10);
+    sleep_us(1);
 }
 
 int compare_ints(const void *a, const void *b) {
@@ -56,15 +56,15 @@ void send(uint8_t *leds, size_t size) {
         }
 
         gpio_put(SRCLK, true);
-        sleep_ms(10);
+        sleep_us(1);
         gpio_put(SRCLK, false);
-        sleep_ms(10);
+        sleep_us(1);
     }
 
     gpio_put(RCLK, true);
-    sleep_ms(10);
+    sleep_us(1);
     gpio_put(RCLK, false);
-    sleep_ms(10);
+    sleep_us(1);
 }
 
 void test() {
@@ -72,13 +72,13 @@ void test() {
     gpio_put(LED_PIN, false);
     for (int i = 0; i < SIZE; i++) {
         gpio_put(SRCLK, true);
-        sleep_ms(10);
+        sleep_us(1);
         gpio_put(SRCLK, false);
-        sleep_ms(10);
+        sleep_us(1);
 
         gpio_put(RCLK, true);
-        sleep_ms(10);
+        sleep_us(1);
         gpio_put(RCLK, false);
-        sleep_ms(500);
+        sleep_us(500);
     }
 }
