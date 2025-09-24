@@ -6,39 +6,53 @@
 #include "keymap.h"
 #include <stdlib.h>
 #include <string.h>
-#include <stdio.h>
 
-#define BUF_SIZE 64
+#define BUF_SIZE 3000
 #define MAX_CHORD_LENGTH 10
 
 void compute(const uint8_t *chords) {
-    uint8_t leds[MAX_CHORD_LENGTH];
-    while (true) {
-        int leds_i = 0;
+    uint8_t keys[MAX_CHORD_LENGTH];
+
+    while (*chords != '\0') {
+        int keys_i = 0;
         bool final = false;
-        memset(leds, -1, sizeof(leds));
+        memset(keys, -1, sizeof(keys));
+
         while (*chords != '\0' && *chords != '/') {
             const uint8_t *vowels = "AOEU";
             if (*chords == '*' || strchr(vowels, *chords)) final = true;
-            int led_num = key_to_led(*chords, final);    
-            leds[leds_i++] = led_num;
+            keys[keys_i++] = key_to_led(*chords, final);
             chords++;
         }
 
-        send(leds, leds_i);
+        send(keys, keys_i);
 
-        if (*chords == '\0') return;
-        chords++;
-        sleep_ms(1000);
+        if (*chords == '/') chords++;
+
+        //Waiting for the correct keys to be pressed
+        while (wait_for(keys, keys_i) == false)
+        {
+            tud_task();
+        }
+
+        sleep_ms(5);
+
+        while (wait_for(keys, keys_i) == true)
+        {
+            tud_task();
+        }
+        
+        sleep_ms(5);
     }
-    
+
+    clear();
 }
 
-int search(char *word) {
+void search(char *word) {
     for (int i = 0; i < steno_dict.size; i++) {
         if (strcmp(word, steno_dict.steno_entries[i].output) == 0) {
             compute(steno_dict.steno_entries[i].chord);
-            break;
+            return;
         }
     }
 }
@@ -46,57 +60,60 @@ int search(char *word) {
 int main(void) {
     tusb_init();
     setup();
+    setup_keys();
 
     char line_buf[BUF_SIZE];
+    uint8_t ch;
     uint8_t line_pos = 0;
-    int initial = 97; //bytes to be skipped
 
     while (1) {
-        tud_task(); // TinyUSB device task
+        tud_task();
 
         if (tud_cdc_connected() && tud_cdc_available()) {
-            uint8_t ch;
-            while (tud_cdc_available()) {
-                
-                uint8_t ch[64];
-                uint8_t num;
-                // show raw numeric value of the received byte
-                // if ((num = tud_cdc_read(ch, 64)) > 0) {
-                //     char hello[64];
-                //     int len = snprintf(hello, 64, "%d", num);
-                //     int out = 0;
-                //     char out_buff[64 * 4];
-                //     for (int i = 0; i < num; i++) {
-                //         out += snprintf(out_buff + out, 64 - out, "%d ", ch[i]);
-                //     }
-                //     tud_cdc_write(hello, len);
-                //     tud_cdc_write_char('-');
-                //     tud_cdc_write(out_buff, out);
-                //     tud_cdc_write("\r\n", 2);
-                //     tud_cdc_write_flush();
-                    
-                // }
-                if ((num = tud_cdc_read(ch, 64)) > 0) {
-                    if (initial > 0) {
-                        initial -= num;
+            while (tud_cdc_available() && line_pos < BUF_SIZE) {
+                if (tud_cdc_read(&ch, 1) > 0) {
+
+                    if (ch == 0x08 || ch == 0x7F) {
+                        line_pos--;
+                        line_buf[line_pos] = '\0';
+                        tud_cdc_write_str("\b \b");
+                        tud_cdc_write_flush();
                         continue;
                     }
-                    tud_cdc_write(ch, num);
-                } else {
-                    tud_cdc_write_str("\r\n");
+
+                    tud_cdc_write(&ch, 1);
                     tud_cdc_write_flush();
+
+                    line_buf[line_pos++] = ch;
+
+                    if (ch == '\n' || ch == '\r') {
+                        tud_cdc_write(&ch, 1);
+                        tud_cdc_write_flush();
+                        
+                        char *w_start = line_buf;
+                        for (int i = 0; i < line_pos; i++) {
+                            tud_cdc_write(&line_buf[i], 1);
+                            tud_cdc_write_str("\r\n");
+                            tud_cdc_write_flush();
+                            if (line_buf[i] <= 32) {
+                                line_buf[i] = '\0';
+                                search(w_start);
+                                w_start = line_buf + i + 1;
+                            }
+                        }
+
+                        memset(line_buf, 0, BUF_SIZE);
+                        line_pos = 0;
+                    }
                 }
             }
         }
     }
 }
  
-// TinyUSB callbacks
 void tud_cdc_line_state_cb(uint8_t itf, bool dtr, bool rts) {
     (void) itf; (void) rts;
     if (dtr) {
-        // tud_cdc_write_str("USB CDC Connected!\r\n");
-        // tud_cdc_write_flush();
     }
 }
 

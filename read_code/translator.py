@@ -23,9 +23,6 @@ const Entry steno_entries[] = {""",
     file = f)
     
     for chord, output in data.items():
-
-        # for char in SPECIAL_CHARACTERS:
-        #     chord = chord.replace(char, "\\"+char)
         
         for char in SPECIAL_CHARACTERS:
             output = output.replace(char, "\\"+char)

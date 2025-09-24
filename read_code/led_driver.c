@@ -72,13 +72,13 @@ void test() {
     gpio_put(LED_PIN, false);
     for (int i = 0; i < SIZE; i++) {
         gpio_put(SRCLK, true);
-        sleep_us(1);
+        sleep_ms(10);
         gpio_put(SRCLK, false);
-        sleep_us(1);
+        sleep_ms(10);
 
         gpio_put(RCLK, true);
-        sleep_us(1);
+        sleep_ms(10);
         gpio_put(RCLK, false);
-        sleep_us(500);
+        sleep_ms(50);
     }
 }
