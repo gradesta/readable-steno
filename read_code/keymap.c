@@ -90,7 +90,7 @@ void setup_keys() {
     for (int i = 0; i < 3; i++) {
         gpio_init(rows[i]);
         gpio_set_dir(rows[i], GPIO_OUT);
-        gpio_put(rows[i], false);
+        gpio_put(rows[i], true);
     }
 }
 
@@ -101,14 +101,17 @@ bool wait_for(uint8_t *keys, uint8_t len) {
 
         for (int j = 0; j < len; j++) {
             if (i == keys[j]) {
+                gpio_put(keymap.keys[keys[j]].row, false);
                 in_keys = true;
                 break;
             }
         }
         
         if ((in_keys && gpio_get(keymap.keys[i].col) != 0)) {
+            gpio_put(keymap.keys[i].row, true);
             return false;
         }
+        gpio_put(keymap.keys[i].row, true);
     }  
 
     return true;
