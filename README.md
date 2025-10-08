@@ -52,3 +52,10 @@ And your firmware should be compiled.
 
 ### Keep in mind
 If you used the liatris  controller, then you cannot use GPIO 10 for the LEDs. In [this](https://github.com/gradesta/readable-steno/blob/main/dev_log/%235-11_08_2025-15_08_2025.md) dev-log we showed how we fixed it. The important thing is, not to forget to change the pin number in [led_driver.h](https://github.com/gradesta/readable-steno/blob/main/read_code/led_driver.h). 
+
+## Testing
+To actually test the software, you will need some kind of serial monitor, for exapmle `screen` and find the com port of the keyboard. In our case it was /dev/ttyACM0. Now you just run:
+```
+sudo screen /dev/ttyACM0 115200
+```
+And a serial monitor should show up where you can type a message to show on the keyboard (up to 3000 characters)
