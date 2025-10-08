@@ -7,7 +7,7 @@ with open(f'{sys.argv[1].split(".")[0]}.json', 'r') as file:
 
 
 
-with open(f'{sys.argv[1].split(".")[0]}.h', 'w') as f:
+with open('dict.h', 'w') as f:
     print("""#include <stdlib.h>
 typedef struct {
     const char *chord;
