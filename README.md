@@ -11,16 +11,9 @@ So far we have a prototype with LED lights rather than solenoids. In the future,
 
 # Tutorial to replicate
 ### Prerquisites
-There are some dependencies you will have to install before following this tutorial, to do so install:
-- Python 3.x
-- CMake 3.12 or higher
-- GNU Toolchain for ARM (arm-none-eabi)
-
-To install on debian based systems use:
+There are some dependencies you will have to install before following this tutorial, these include dependencies both for the firmware and pico-sdk:
 ```
-sudo apt install python3
-sudo apt install cmake
-sudo apt install gcc-arm-none-eabi
+sudo apt install cmake python3 build-essential gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib
 ```
 ### Steps
 1. Clone [the readable steno](https://github.com/gradesta/readable-steno#) and the [pico-sdk](https://github.com/raspberrypi/pico-sdk#) repositories: 
