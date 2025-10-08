@@ -59,3 +59,7 @@ To actually test the software, you will need some kind of serial monitor, for ex
 sudo screen /dev/ttyACM0 115200
 ```
 And a serial monitor should show up where you can type a message to show on the keyboard (up to 3000 characters)
+
+
+https://github.com/user-attachments/assets/7c71d7f1-2565-4da7-bef9-faf2f1da297b
+
