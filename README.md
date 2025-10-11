@@ -32,6 +32,10 @@ git submodule update --init
 cd ../readable-steno/read_code
 python3 translator.py <your_dict_name>.json
 ```
+For example 
+```
+python3 translator.py typey-type-full.json
+```
 You should see a `dict.h` file now.
 
 
