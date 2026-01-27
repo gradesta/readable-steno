@@ -1,0 +1,10109 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2362d5f6-a019-4adb-9cfd-fbd4ce80a2f6")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xx:74HC595"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74HC595"
+				(at -7.62 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "HCMOS SR 3State"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* SOIC*5.3x10.2mm*P1.27mm* SOIC*7.5x10.3mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74HC595_1_0"
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "SER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SRCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~{SRCLR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "RCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "QA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "QB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "QC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "QD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "QE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "QF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "QG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "QH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -12.7 180)
+					(length 2.54)
+					(name "QH'"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC595_1_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ScottoKeebs:Placeholder_Resistor"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Resistor"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Placeholder_Resistor_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Placeholder_Resistor_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDREF"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDREF"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDREF_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDREF_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "LED schematic with shift registers"
+		(exclude_from_sim no)
+		(at 233.426 186.436 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "82a23108-c530-4241-b11b-b022b1b23c73")
+	)
+	(text_box "LEDs are LTST-S110TGKT, which means they draw at most 20mA. There are 8 LEDs per shift register (SN74HC595N), which can only handle 70 mA across all pins. Thus the resistors are 330 ohm, which makes the LEDs draw around 5.5 mA."
+		(exclude_from_sim no)
+		(at 181.7913 20.8804 0)
+		(size 92.5287 27.3796)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "a8f81bac-cbee-44d2-b4cd-4fcb4beb84d5")
+	)
+	(junction
+		(at 170.18 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "092b1311-6c8b-411d-9070-ee546ce826e8")
+	)
+	(junction
+		(at 58.42 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dbcdec4-f2f2-404f-a4e2-5d02143a6f64")
+	)
+	(junction
+		(at 81.28 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f7bd689-6386-48bf-b911-9d185a87b99e")
+	)
+	(junction
+		(at 170.18 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3192921b-63d4-4eef-9c48-0b10f819cc7a")
+	)
+	(junction
+		(at 124.46 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a03f723-5352-4e6d-8f07-e526e4924074")
+	)
+	(junction
+		(at 104.14 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bac447b-beb2-4f9d-8342-61d0416a13d7")
+	)
+	(junction
+		(at 60.96 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5394cd7d-8bf7-47dd-b3d9-43550f8878da")
+	)
+	(junction
+		(at 124.46 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5838a507-6687-4c4a-8c78-9719896574f1")
+	)
+	(junction
+		(at 124.46 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ba70293-0296-4716-8f3c-c603422dd0c7")
+	)
+	(junction
+		(at 78.74 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "714f35e9-4777-40ef-87b0-43510cd6ddcf")
+	)
+	(junction
+		(at 170.18 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "780f40c7-82ad-40fa-a82e-7b0e489b5a27")
+	)
+	(junction
+		(at 106.68 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7842891c-8e18-479a-8bb9-74a509840cab")
+	)
+	(junction
+		(at 215.9 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78dd5a2d-8a80-4292-b656-7732a043c923")
+	)
+	(junction
+		(at 172.72 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78f2a365-911c-49e5-8ebe-e26e1285a5e9")
+	)
+	(junction
+		(at 78.74 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7980cfc2-567a-443c-ba28-e95db85160ee")
+	)
+	(junction
+		(at 78.74 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a2cf6a8-fbd2-4f49-b506-50ecc27a4c47")
+	)
+	(junction
+		(at 66.04 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85a3fa6c-d03a-4134-afa0-0684fe37a42b")
+	)
+	(junction
+		(at 124.46 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88518463-bc97-4a4f-b6e5-8a22664ee1f4")
+	)
+	(junction
+		(at 215.9 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8de38f57-56c3-4aed-9515-5f983873885a")
+	)
+	(junction
+		(at 124.46 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "971a1c1d-3e54-4965-9ae6-24e110e8f9e0")
+	)
+	(junction
+		(at 170.18 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b042272-c6f8-44dd-ab52-1887896331b9")
+	)
+	(junction
+		(at 124.46 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a064ad65-10ba-4f0a-89e3-6101f211dff7")
+	)
+	(junction
+		(at 78.74 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a24e11fe-b9ec-4665-b238-a53ad88182e6")
+	)
+	(junction
+		(at 78.74 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acccfd73-6b4e-4e97-8950-7b1f1037e0d2")
+	)
+	(junction
+		(at 218.44 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ade2247f-2596-493d-8865-e254343883a4")
+	)
+	(junction
+		(at 215.9 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0b8641e-381c-40e6-a120-5636ac569586")
+	)
+	(junction
+		(at 152.4 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c16c0f80-4b27-421b-8aac-0c993107992d")
+	)
+	(junction
+		(at 78.74 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c34ce7e5-e976-42fe-9e21-51cfb505edcd")
+	)
+	(junction
+		(at 170.18 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5958627-0dc0-49a3-ba63-b4c32be8e294")
+	)
+	(junction
+		(at 170.18 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c791adc2-2b58-4e67-ab9c-9830f11bef40")
+	)
+	(junction
+		(at 157.48 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb0bf8b3-f7a9-4d0d-9e54-9bf06f75a1b8")
+	)
+	(junction
+		(at 215.9 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d56f10b2-cd2a-428f-8a9b-5950ed53a74a")
+	)
+	(junction
+		(at 149.86 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db54148c-fdfc-4fd3-8f19-557ce8484f3a")
+	)
+	(junction
+		(at 78.74 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f09e6c70-0040-42a2-ada1-61c44126e9bb")
+	)
+	(junction
+		(at 170.18 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f45bb5ea-a46f-41d3-addd-f42609a1e406")
+	)
+	(junction
+		(at 111.76 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8744dae-8861-4245-9a84-89615a0cf431")
+	)
+	(junction
+		(at 215.9 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f886df43-a5a8-4b5b-aa2c-076ce9fe6c9d")
+	)
+	(junction
+		(at 124.46 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcc41811-d885-423b-b5db-3f45e30be8ad")
+	)
+	(junction
+		(at 127 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff303441-8413-49f2-a63b-c08aa8336749")
+	)
+	(no_connect
+		(at 205.74 134.62)
+		(uuid "6176ac3b-c6f8-4833-850e-06e1d7b21f1c")
+	)
+	(no_connect
+		(at 213.36 134.62)
+		(uuid "e8128e3d-f3b4-4258-bf2a-bcb176d47627")
+	)
+	(no_connect
+		(at 208.28 134.62)
+		(uuid "fff60487-51df-43d6-9411-79f19df4c757")
+	)
+	(bus_entry
+		(at 50.8 53.34)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "098f67ed-0fab-4109-ba66-c72107d69ecf")
+	)
+	(bus_entry
+		(at 99.06 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6a0cb4-18a9-4f40-a247-36a9cd9e1d38")
+	)
+	(bus_entry
+		(at 68.58 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f423b5-166a-4593-bca5-a649eb28051b")
+	)
+	(bus_entry
+		(at 187.96 81.28)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14265d0a-eb08-4c07-87a7-16c033b0bd6d")
+	)
+	(bus_entry
+		(at 195.58 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17520257-f1a2-4827-b1b6-50eba3ff0af6")
+	)
+	(bus_entry
+		(at 96.52 63.5)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192d0a0a-61fa-405c-b305-20a4d463e7f1")
+	)
+	(bus_entry
+		(at 96.52 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2467aa7a-ce78-4aa7-b88a-63c50ac80f80")
+	)
+	(bus_entry
+		(at 50.8 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250860ca-a3c1-436f-a912-b64997cf19a6")
+	)
+	(bus_entry
+		(at 144.78 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "272ea791-ccfc-4a9b-9d32-e5f3759f2618")
+	)
+	(bus_entry
+		(at 187.96 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27be6dc9-de79-4a40-8042-45d134eec1a2")
+	)
+	(bus_entry
+		(at 109.22 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e9abbbc-00d9-436f-b55e-573ffd5643d5")
+	)
+	(bus_entry
+		(at 142.24 114.3)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f68aa73-5190-477e-88bf-cbbaee9a8d4e")
+	)
+	(bus_entry
+		(at 187.96 71.12)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c3c411-d03e-464f-a859-81491b285330")
+	)
+	(bus_entry
+		(at 50.8 73.66)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3963d70b-b58a-4b1d-bd90-90a5c4dc24a2")
+	)
+	(bus_entry
+		(at 142.24 93.98)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c101cd0-53a9-4ef9-94ad-6c7461a8bb9a")
+	)
+	(bus_entry
+		(at 142.24 53.34)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5f4db7-6360-44fb-9d23-78b4f3535f86")
+	)
+	(bus_entry
+		(at 96.52 114.3)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb21f82-ffea-4810-8c64-ff58dd262305")
+	)
+	(bus_entry
+		(at 193.04 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a437f65-30e6-4dd1-9c67-4eb0ae766b11")
+	)
+	(bus_entry
+		(at 96.52 93.98)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e083605-eb21-4966-a4e4-e101ef9913c9")
+	)
+	(bus_entry
+		(at 53.34 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526c57ef-8ec1-4459-9d35-dc34964e63c9")
+	)
+	(bus_entry
+		(at 142.24 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f8bd816-afeb-42a9-8cef-16c517e1c6b0")
+	)
+	(bus_entry
+		(at 114.3 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673c3b1e-aab5-4aad-bd5e-b19a5849ee4e")
+	)
+	(bus_entry
+		(at 198.12 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "689b45e0-f78a-4261-9653-ecc87e2152f1")
+	)
+	(bus_entry
+		(at 96.52 73.66)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d387793-80e5-4ecc-bb5d-4851a5b14a2c")
+	)
+	(bus_entry
+		(at 50.8 93.98)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef77437-0e7e-4562-a343-ee3632e33c4c")
+	)
+	(bus_entry
+		(at 96.52 53.34)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85103bae-5ce9-465d-90ac-e68a8e6c064e")
+	)
+	(bus_entry
+		(at 66.04 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e6ef22-85af-47de-ac63-e8d9a13b9c9a")
+	)
+	(bus_entry
+		(at 50.8 43.18)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873087d7-988c-4d8f-8eae-c72f4e03cb5d")
+	)
+	(bus_entry
+		(at 160.02 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89dc227a-2b5e-4ec0-b0c5-ecb03d839d5c")
+	)
+	(bus_entry
+		(at 187.96 111.76)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb3c3b0-505b-48f4-ba9b-2eaac9188849")
+	)
+	(bus_entry
+		(at 149.86 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9141fc31-db53-4a75-963c-1eb911b2602e")
+	)
+	(bus_entry
+		(at 50.8 63.5)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c63c62-d1c3-40e0-a42b-ef91e6041011")
+	)
+	(bus_entry
+		(at 50.8 83.82)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9873a318-eec7-46bc-85ea-c0088d0de4c5")
+	)
+	(bus_entry
+		(at 111.76 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9924f72e-1380-4dc1-a544-5c95c1d14686")
+	)
+	(bus_entry
+		(at 187.96 91.44)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f685882-810f-4227-bd7e-6f25ebeb7bbd")
+	)
+	(bus_entry
+		(at 50.8 104.14)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a092b83c-1fcb-42e0-94e4-8f15f77035ba")
+	)
+	(bus_entry
+		(at 63.5 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a978591a-b1b3-416c-8e5a-81d1e2acb986")
+	)
+	(bus_entry
+		(at 58.42 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa46b1b-c3e0-40a0-9e47-773c9730669b")
+	)
+	(bus_entry
+		(at 96.52 104.14)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b34ecbc6-ccc7-4204-95fe-7f9aaa904aeb")
+	)
+	(bus_entry
+		(at 200.66 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4688230-89a3-4f4a-ba4c-1f591948b390")
+	)
+	(bus_entry
+		(at 190.5 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b736ca45-5759-41bc-b39e-8e857447e429")
+	)
+	(bus_entry
+		(at 142.24 104.14)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9fc2538-2b86-44ed-8d70-8ea0293ac1ab")
+	)
+	(bus_entry
+		(at 50.8 114.3)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcc8144f-e57f-426e-8c3f-e8fe7f735ede")
+	)
+	(bus_entry
+		(at 187.96 101.6)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b7ed9c-935e-440f-9069-7f7864d6310a")
+	)
+	(bus_entry
+		(at 104.14 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d5b746-e93a-4706-86ab-71a7beae91d5")
+	)
+	(bus_entry
+		(at 187.96 60.96)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c1f390-ceeb-473b-a63c-ebb6ee1b6e88")
+	)
+	(bus_entry
+		(at 142.24 73.66)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c938224b-e0d2-4c34-93f9-1308ebd17731")
+	)
+	(bus_entry
+		(at 55.88 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41225df-f7bb-44e0-89eb-2a7f820275c4")
+	)
+	(bus_entry
+		(at 152.4 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d766d934-e902-44c4-9a52-fcc06b679b24")
+	)
+	(bus_entry
+		(at 60.96 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8333d3f-e816-4256-90c9-0e7e6ffb2982")
+	)
+	(bus_entry
+		(at 142.24 83.82)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d98e6fc1-bd99-4f34-a71f-034d3a002358")
+	)
+	(bus_entry
+		(at 147.32 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ea3117-a637-4dd6-a67d-d94016999775")
+	)
+	(bus_entry
+		(at 142.24 43.18)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa0b8c9-6f5a-4a14-9f69-fe6d1211d48a")
+	)
+	(bus_entry
+		(at 142.24 63.5)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e9008d-14df-415d-aa36-1b62295954fc")
+	)
+	(bus_entry
+		(at 154.94 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7bcff8b-e9dc-439c-a4c3-e17a29ad8fd9")
+	)
+	(bus_entry
+		(at 96.52 43.18)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaab1060-4a7e-44c7-a0df-8153f2b12690")
+	)
+	(bus_entry
+		(at 157.48 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ec46cb-b0c6-472c-bf3b-7c996a83aa52")
+	)
+	(bus_entry
+		(at 101.6 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8771157-e44d-491b-81b4-7a37c57c0e1f")
+	)
+	(bus_entry
+		(at 106.68 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f98f6f10-d303-4f2e-9316-7bda122f59f1")
+	)
+	(bus_entry
+		(at 96.52 83.82)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7f45bf-86cf-47d4-bc12-29d07fdd8597")
+	)
+	(wire
+		(pts
+			(xy 170.18 38.1) (xy 170.18 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00063251-71c8-47ac-b376-b9f07d658dfa")
+	)
+	(wire
+		(pts
+			(xy 170.18 86.36) (xy 170.18 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02ac2486-edae-4f80-af60-9ff1577b269b")
+	)
+	(wire
+		(pts
+			(xy 195.58 160.02) (xy 195.58 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0536c690-d011-49bb-8604-12fed482b938")
+	)
+	(wire
+		(pts
+			(xy 60.96 123.19) (xy 60.96 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "074312d0-c388-4e98-8a9c-031b96d34ece")
+	)
+	(wire
+		(pts
+			(xy 68.58 154.94) (xy 81.28 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "085ebdd7-e9dc-4cdf-959e-676c4fd8b025")
+	)
+	(wire
+		(pts
+			(xy 152.4 163.83) (xy 198.12 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a03a5a7-373a-4c21-ba50-c4b30c9b3b1c")
+	)
+	(bus
+		(pts
+			(xy 187.96 91.44) (xy 187.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a9ea078-e255-48dc-9589-77afaa2a3cbd")
+	)
+	(wire
+		(pts
+			(xy 154.94 123.19) (xy 154.94 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ce919e1-aecf-4c91-8fc3-7b5106ecfd7b")
+	)
+	(wire
+		(pts
+			(xy 144.78 106.68) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d35b387-6336-4a2d-b220-4eac6025c89c")
+	)
+	(wire
+		(pts
+			(xy 190.5 83.82) (xy 200.66 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10cd7a7f-08c1-4ff4-9004-c6ff472bf530")
+	)
+	(wire
+		(pts
+			(xy 190.5 123.19) (xy 190.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ed9b54-cc3e-40aa-b6d2-1647e29adb7d")
+	)
+	(bus
+		(pts
+			(xy 50.8 104.14) (xy 50.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12cdc452-66a8-4064-a19e-d096904f549b")
+	)
+	(wire
+		(pts
+			(xy 218.44 154.94) (xy 218.44 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1381af46-ee7d-44fa-bfb5-8c33304db885")
+	)
+	(wire
+		(pts
+			(xy 46.99 144.78) (xy 48.26 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b054a9-c091-4b77-b582-fd602d54850a")
+	)
+	(bus
+		(pts
+			(xy 101.6 120.65) (xy 104.14 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ee4cac-af39-41af-a4b1-3e033bf9f60e")
+	)
+	(wire
+		(pts
+			(xy 190.5 93.98) (xy 200.66 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19117f5c-9e6b-4575-810c-07e9f69f3815")
+	)
+	(wire
+		(pts
+			(xy 157.48 162.56) (xy 111.76 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a79a73a-373c-4199-aa55-a8375fdb2fab")
+	)
+	(bus
+		(pts
+			(xy 96.52 120.65) (xy 99.06 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aaf96ac-1402-4ad1-801b-585e1b35760f")
+	)
+	(wire
+		(pts
+			(xy 116.84 123.19) (xy 116.84 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aeeac3d-7f43-4d5a-bdce-c818e209e434")
+	)
+	(wire
+		(pts
+			(xy 170.18 66.04) (xy 170.18 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bad368a-c745-4a78-8acb-a1eccc8c814f")
+	)
+	(bus
+		(pts
+			(xy 142.24 38.1) (xy 142.24 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4a943a-80b2-4e5d-a199-83a1e0fae068")
+	)
+	(wire
+		(pts
+			(xy 180.34 154.94) (xy 180.34 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c926d06-61c3-4edc-b4a0-8a77be9443a6")
+	)
+	(wire
+		(pts
+			(xy 99.06 154.94) (xy 88.9 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d38a6f7-ade9-495c-8b5d-80fb3af2dca0")
+	)
+	(wire
+		(pts
+			(xy 53.34 154.94) (xy 53.34 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2094b849-ad4b-4fc0-ac52-b80ad1ce98d4")
+	)
+	(bus
+		(pts
+			(xy 53.34 120.65) (xy 55.88 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21201ee0-e939-416c-a596-ebadcaaad0a5")
+	)
+	(wire
+		(pts
+			(xy 53.34 106.68) (xy 63.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ba16b0-c0b7-4e7c-8aaa-3287b4ee4b0a")
+	)
+	(bus
+		(pts
+			(xy 142.24 83.82) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ec2135-fd05-49d9-940b-b08cf3ef6e9f")
+	)
+	(bus
+		(pts
+			(xy 142.24 120.65) (xy 144.78 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f5e92d-d698-4a94-ad36-1ac48c130904")
+	)
+	(wire
+		(pts
+			(xy 66.04 123.19) (xy 66.04 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23ba4f45-fd25-4809-aa17-cc7147f221e9")
+	)
+	(wire
+		(pts
+			(xy 152.4 163.83) (xy 152.4 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "247f5b48-774f-440f-bc14-1fac404e9ca0")
+	)
+	(bus
+		(pts
+			(xy 142.24 63.5) (xy 142.24 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2532d265-d204-4d0d-8cd9-db480ab3dd20")
+	)
+	(wire
+		(pts
+			(xy 124.46 96.52) (xy 124.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26549a76-8073-4fa4-8ba0-7fcb49416780")
+	)
+	(wire
+		(pts
+			(xy 215.9 93.98) (xy 215.9 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27c5acfa-4412-46f4-bd54-61d810d392e1")
+	)
+	(bus
+		(pts
+			(xy 50.8 83.82) (xy 50.8 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29c463f2-cf6d-43c6-8900-78cdac5a4abb")
+	)
+	(bus
+		(pts
+			(xy 106.68 120.65) (xy 109.22 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d16a80b-3a68-45e6-b056-e7f396c3cb7e")
+	)
+	(bus
+		(pts
+			(xy 193.04 120.65) (xy 195.58 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0fa97a-a48f-423e-83cd-cc1daa033b1b")
+	)
+	(wire
+		(pts
+			(xy 78.74 38.1) (xy 78.74 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eb4797f-8421-4672-8625-ab370bb1b217")
+	)
+	(wire
+		(pts
+			(xy 78.74 96.52) (xy 78.74 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc5a426-9b99-46cb-8745-bfbe7a046781")
+	)
+	(wire
+		(pts
+			(xy 190.5 73.66) (xy 200.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a51bf3-8aeb-4de7-98ce-c9a0d18394fc")
+	)
+	(bus
+		(pts
+			(xy 96.52 93.98) (xy 96.52 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3143e602-0085-4bc4-ab77-c428902cb3b6")
+	)
+	(bus
+		(pts
+			(xy 142.24 73.66) (xy 142.24 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3233cd58-b128-47b8-97fb-c1ce94174134")
+	)
+	(bus
+		(pts
+			(xy 142.24 53.34) (xy 142.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3322c95c-ff0e-4c40-ac35-1ec574b2b635")
+	)
+	(wire
+		(pts
+			(xy 205.74 154.94) (xy 218.44 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3558ea93-003a-4e7a-bb2d-216290628215")
+	)
+	(wire
+		(pts
+			(xy 111.76 123.19) (xy 111.76 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ee77b9-a4f4-4921-8bbd-50219300b092")
+	)
+	(wire
+		(pts
+			(xy 203.2 154.94) (xy 203.2 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36393295-f41f-479d-a565-c14915a5f6f6")
+	)
+	(wire
+		(pts
+			(xy 53.34 55.88) (xy 63.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a63ee57-cd29-4f20-8aaa-5d64b4fde9f3")
+	)
+	(bus
+		(pts
+			(xy 66.04 120.65) (xy 68.58 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a6a0e23-b424-4613-993c-f2a159dc00e1")
+	)
+	(wire
+		(pts
+			(xy 114.3 123.19) (xy 114.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bbae1c2-bece-4915-96b3-a7973f8198f4")
+	)
+	(wire
+		(pts
+			(xy 111.76 162.56) (xy 66.04 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf9346a-9540-4c0f-95bd-bdd138a057b0")
+	)
+	(wire
+		(pts
+			(xy 144.78 66.04) (xy 154.94 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d99f613-3041-46f8-b875-372f23f78bb5")
+	)
+	(bus
+		(pts
+			(xy 50.8 93.98) (xy 50.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e06386e-aa27-406a-9120-c63a1267525e")
+	)
+	(bus
+		(pts
+			(xy 142.24 114.3) (xy 142.24 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0b657c-78f3-440c-bf2d-5523bb87753d")
+	)
+	(wire
+		(pts
+			(xy 147.32 123.19) (xy 147.32 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9bb422-e362-4ce7-9063-97801b79e2b7")
+	)
+	(bus
+		(pts
+			(xy 50.8 73.66) (xy 50.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401e4164-cabf-4f63-b87b-02827a4d9a3b")
+	)
+	(wire
+		(pts
+			(xy 157.48 123.19) (xy 157.48 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40336f2d-1e1c-4043-967d-8e423de8f470")
+	)
+	(wire
+		(pts
+			(xy 106.68 163.83) (xy 106.68 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d18ea1-1040-4153-a95c-3103e02c4de9")
+	)
+	(wire
+		(pts
+			(xy 99.06 123.19) (xy 99.06 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4212fad2-9cfb-4259-9c3d-36ca666150dc")
+	)
+	(wire
+		(pts
+			(xy 172.72 154.94) (xy 172.72 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c1e910-a71d-41cc-8cb0-98225f7ac977")
+	)
+	(bus
+		(pts
+			(xy 187.96 71.12) (xy 187.96 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4560695d-b50c-4891-8bb9-e96c96916306")
+	)
+	(wire
+		(pts
+			(xy 46.99 143.51) (xy 46.99 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "482f04da-b8bf-4601-8450-8021745380f6")
+	)
+	(wire
+		(pts
+			(xy 203.2 123.19) (xy 203.2 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48cda32e-a25e-41dc-945a-1f7144942e62")
+	)
+	(wire
+		(pts
+			(xy 101.6 123.19) (xy 101.6 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc456cf-1dc2-48da-b707-893566dde491")
+	)
+	(bus
+		(pts
+			(xy 195.58 120.65) (xy 198.12 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be46548-b14c-4145-8daa-17f7c654a01d")
+	)
+	(wire
+		(pts
+			(xy 144.78 76.2) (xy 154.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c774fe6-ea40-4fd7-ba36-a4fa56ecbf37")
+	)
+	(wire
+		(pts
+			(xy 60.96 163.83) (xy 60.96 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1de4bf-5c94-48e1-b374-c054684a6aa5")
+	)
+	(bus
+		(pts
+			(xy 152.4 120.65) (xy 154.94 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc45eaf-d887-4f7b-b73a-fbd343af4a83")
+	)
+	(wire
+		(pts
+			(xy 76.2 134.62) (xy 88.9 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "517f8d0b-1d1b-4fc2-a9b7-39042c3639d8")
+	)
+	(wire
+		(pts
+			(xy 58.42 154.94) (xy 58.42 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "538943db-7ca9-4f56-a357-e2aa53781ac2")
+	)
+	(bus
+		(pts
+			(xy 187.96 111.76) (xy 187.96 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c212df-0e5d-4abc-a4da-5bedf0743c70")
+	)
+	(wire
+		(pts
+			(xy 63.5 123.19) (xy 63.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542473a6-278f-4089-9d8b-e6f16ae5206e")
+	)
+	(bus
+		(pts
+			(xy 198.12 120.65) (xy 200.66 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5440ca3d-a36d-4839-be6a-6484015dc4a8")
+	)
+	(wire
+		(pts
+			(xy 99.06 45.72) (xy 109.22 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55586de6-3c7b-4ae4-a9b9-0d66365d6f39")
+	)
+	(bus
+		(pts
+			(xy 60.96 120.65) (xy 63.5 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "561950a3-6169-4783-9474-140262c4614e")
+	)
+	(wire
+		(pts
+			(xy 60.96 163.83) (xy 106.68 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f6d392-2af7-4497-b4fd-f6378d22bdec")
+	)
+	(wire
+		(pts
+			(xy 198.12 123.19) (xy 198.12 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b34b4b-52da-45aa-acf6-77066b152c0e")
+	)
+	(wire
+		(pts
+			(xy 53.34 66.04) (xy 63.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a991524-19c7-4acb-bb6a-c37a4fe8c740")
+	)
+	(wire
+		(pts
+			(xy 78.74 76.2) (xy 78.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b3211b8-da23-4ca1-b527-06d9c4d72190")
+	)
+	(bus
+		(pts
+			(xy 50.8 53.34) (xy 50.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c801d47-cc56-403f-92f0-4c0153361c17")
+	)
+	(wire
+		(pts
+			(xy 53.34 96.52) (xy 63.5 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e99e8a0-57d9-4dba-ad19-d43489b2051c")
+	)
+	(wire
+		(pts
+			(xy 215.9 73.66) (xy 215.9 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f550298-c5d3-4e81-b104-8c7187c7afae")
+	)
+	(wire
+		(pts
+			(xy 195.58 123.19) (xy 195.58 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60260575-f9df-4909-8f59-6a7089934ab8")
+	)
+	(wire
+		(pts
+			(xy 170.18 76.2) (xy 170.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619f9d14-07ff-49ba-aacb-aed30851277b")
+	)
+	(wire
+		(pts
+			(xy 203.2 162.56) (xy 157.48 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b221de-0e56-49ec-b6f9-a414b1065601")
+	)
+	(bus
+		(pts
+			(xy 104.14 120.65) (xy 106.68 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637e5763-02d8-4520-bc42-70c934e579a9")
+	)
+	(bus
+		(pts
+			(xy 147.32 120.65) (xy 149.86 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "638dc50d-82b0-4cf3-bc21-55a965b430f5")
+	)
+	(wire
+		(pts
+			(xy 124.46 86.36) (xy 124.46 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63dac96c-8d41-488e-806b-160b67c6c742")
+	)
+	(wire
+		(pts
+			(xy 88.9 154.94) (xy 88.9 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b64b22-e495-41b1-b527-b3d718fd7467")
+	)
+	(wire
+		(pts
+			(xy 111.76 162.56) (xy 111.76 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666be7f5-d0e8-45de-81ca-9f5417887e0a")
+	)
+	(wire
+		(pts
+			(xy 198.12 163.83) (xy 198.12 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b66623-1592-4c5c-b1aa-b4db062066e4")
+	)
+	(wire
+		(pts
+			(xy 53.34 86.36) (xy 63.5 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6772e123-5591-4449-9809-97f6c01c824b")
+	)
+	(bus
+		(pts
+			(xy 96.52 38.1) (xy 96.52 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686e932b-96ec-49f1-8491-9eec47b3e917")
+	)
+	(wire
+		(pts
+			(xy 124.46 66.04) (xy 124.46 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab97feb-5b4e-41b9-a932-f1adf5b33560")
+	)
+	(bus
+		(pts
+			(xy 96.52 63.5) (xy 96.52 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709053c3-52a3-4484-a3ed-c691875cea67")
+	)
+	(wire
+		(pts
+			(xy 215.9 104.14) (xy 215.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c8f0e8-70e5-4d40-8983-6879b91a9209")
+	)
+	(wire
+		(pts
+			(xy 92.71 143.51) (xy 92.71 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721c60bb-803a-478e-8e3c-01a7e4f6016b")
+	)
+	(wire
+		(pts
+			(xy 92.71 144.78) (xy 93.98 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f148e6-d460-4fc0-a0d7-8628637b9caf")
+	)
+	(wire
+		(pts
+			(xy 58.42 160.02) (xy 104.14 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75bb5235-0da2-4e54-9d74-370931e1aaf7")
+	)
+	(wire
+		(pts
+			(xy 170.18 45.72) (xy 170.18 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ee968b-b503-4a84-b10b-bc7c682bd2e4")
+	)
+	(wire
+		(pts
+			(xy 215.9 55.88) (xy 215.9 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a1ce4b-23c4-4306-a69d-e4a69f4488e1")
+	)
+	(wire
+		(pts
+			(xy 55.88 123.19) (xy 55.88 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0f5052-12ff-42b8-9392-f25d12180db2")
+	)
+	(bus
+		(pts
+			(xy 50.8 63.5) (xy 50.8 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb2c07b-a4dc-458c-ad9b-fa41cd2511a3")
+	)
+	(wire
+		(pts
+			(xy 170.18 96.52) (xy 170.18 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff061a5-9ff8-497f-b883-cdefb74798b0")
+	)
+	(bus
+		(pts
+			(xy 50.8 114.3) (xy 50.8 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81027222-e91c-4981-9887-7f28700c15eb")
+	)
+	(wire
+		(pts
+			(xy 127 154.94) (xy 127 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b8e5e3-8be7-4ebe-b8fd-73d9c5803562")
+	)
+	(wire
+		(pts
+			(xy 138.43 143.51) (xy 138.43 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8301a19d-c677-476a-b3d7-ce4d203fe6e7")
+	)
+	(wire
+		(pts
+			(xy 99.06 55.88) (xy 109.22 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e8a4fa-482e-4d8e-b68c-ff5628b97718")
+	)
+	(wire
+		(pts
+			(xy 106.68 123.19) (xy 106.68 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860c447c-c121-4e56-af61-e701fd15cfa7")
+	)
+	(wire
+		(pts
+			(xy 99.06 96.52) (xy 109.22 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8725553b-5120-4537-9fa1-646c82139fee")
+	)
+	(wire
+		(pts
+			(xy 193.04 123.19) (xy 193.04 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d5b4f7-9e68-4c59-ba54-966b446b0592")
+	)
+	(wire
+		(pts
+			(xy 162.56 123.19) (xy 162.56 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c1d802-ed6a-45ed-b1f4-53aa2f2cf6c2")
+	)
+	(bus
+		(pts
+			(xy 109.22 120.65) (xy 111.76 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8993f660-830f-442e-8df3-f1ed124a5371")
+	)
+	(wire
+		(pts
+			(xy 218.44 154.94) (xy 218.44 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa12654-e9ca-41ea-89b0-22485111019e")
+	)
+	(wire
+		(pts
+			(xy 104.14 123.19) (xy 104.14 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0a7957-2726-4454-8a95-346ef81f8b83")
+	)
+	(bus
+		(pts
+			(xy 96.52 53.34) (xy 96.52 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d73bfd3-38f2-439d-a07a-607a987a4b9f")
+	)
+	(wire
+		(pts
+			(xy 215.9 63.5) (xy 215.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7c64ad-296d-40d9-9f77-05e1453b8151")
+	)
+	(wire
+		(pts
+			(xy 144.78 96.52) (xy 154.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de6a521-3eb1-4bb1-b32b-675df90e809e")
+	)
+	(bus
+		(pts
+			(xy 157.48 120.65) (xy 160.02 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8efdb063-99ab-497c-bcb5-07d31d824a8b")
+	)
+	(wire
+		(pts
+			(xy 215.9 83.82) (xy 215.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4d5215-a637-4946-8fd6-2d07dac86d78")
+	)
+	(wire
+		(pts
+			(xy 124.46 38.1) (xy 124.46 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a9a5e2-eb4a-47f7-8db7-d9a5b4bbe947")
+	)
+	(wire
+		(pts
+			(xy 144.78 116.84) (xy 154.94 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921f39bc-0762-4258-acfe-801134ba78c4")
+	)
+	(bus
+		(pts
+			(xy 142.24 93.98) (xy 142.24 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95afb562-afe5-4f0f-b42a-41a34b7d048c")
+	)
+	(wire
+		(pts
+			(xy 78.74 66.04) (xy 78.74 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d56bd6-5b88-4d5b-957c-73375c7819ff")
+	)
+	(wire
+		(pts
+			(xy 184.15 144.78) (xy 185.42 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9994a50f-4d74-48c0-9f0e-8f7ce857da41")
+	)
+	(wire
+		(pts
+			(xy 190.5 104.14) (xy 200.66 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae8dc61-c2fe-4ae0-9a2c-6fcc2b5741b3")
+	)
+	(bus
+		(pts
+			(xy 187.96 81.28) (xy 187.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aee30a9-eefa-4a0d-9bc2-4dd064496da2")
+	)
+	(bus
+		(pts
+			(xy 187.96 120.65) (xy 190.5 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b891e3d-91b8-4d24-878a-61bd86dfe7ce")
+	)
+	(wire
+		(pts
+			(xy 160.02 154.94) (xy 172.72 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bbdc52b-c2dd-45cd-b2ec-c1c5acfc9448")
+	)
+	(wire
+		(pts
+			(xy 149.86 160.02) (xy 195.58 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf4ecdb-2a9e-42b9-9aa0-b453ef99e8d0")
+	)
+	(bus
+		(pts
+			(xy 96.52 73.66) (xy 96.52 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c418234-ec71-4c5a-9f63-37413e1f957e")
+	)
+	(bus
+		(pts
+			(xy 99.06 120.65) (xy 101.6 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dcf266f-1cc3-401a-90c7-836f594380e6")
+	)
+	(bus
+		(pts
+			(xy 63.5 120.65) (xy 66.04 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dcfbd55-8a3c-4834-9328-f03b9b71ea7c")
+	)
+	(bus
+		(pts
+			(xy 96.52 104.14) (xy 96.52 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4f1883-4108-4810-a0fd-12c467b92b18")
+	)
+	(wire
+		(pts
+			(xy 144.78 123.19) (xy 144.78 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe72e65-96ab-444c-8825-b0c16a014968")
+	)
+	(wire
+		(pts
+			(xy 149.86 160.02) (xy 149.86 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a041760e-32d7-41f3-b79e-5abff02bcfc5")
+	)
+	(bus
+		(pts
+			(xy 142.24 43.18) (xy 142.24 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a16bbdde-f941-4366-ac19-7fd346048471")
+	)
+	(wire
+		(pts
+			(xy 78.74 55.88) (xy 78.74 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28d71aa-ea9a-4359-b134-deacd5a3409b")
+	)
+	(wire
+		(pts
+			(xy 200.66 123.19) (xy 200.66 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c38b00-3a90-41bf-baf6-58752d73b78a")
+	)
+	(wire
+		(pts
+			(xy 99.06 106.68) (xy 109.22 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82f9f0f-378f-4073-b156-4f5f13809890")
+	)
+	(wire
+		(pts
+			(xy 104.14 160.02) (xy 104.14 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab60d47e-b2a5-4ecb-ba9c-16953c8ff4ba")
+	)
+	(wire
+		(pts
+			(xy 170.18 55.88) (xy 170.18 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba14b8e-91a7-49d5-a3c4-269446f4b792")
+	)
+	(wire
+		(pts
+			(xy 99.06 76.2) (xy 109.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad177e21-8ec9-4d45-81cd-3d37ebeb957f")
+	)
+	(wire
+		(pts
+			(xy 190.5 114.3) (xy 200.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad2df26a-ffcb-40cb-8d83-7a7a6a59f863")
+	)
+	(wire
+		(pts
+			(xy 114.3 154.94) (xy 127 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf0bd25-5233-4b97-8b65-b949c40de7ca")
+	)
+	(wire
+		(pts
+			(xy 66.04 162.56) (xy 66.04 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae51e8ef-db60-46ef-bc42-05cf78422f00")
+	)
+	(wire
+		(pts
+			(xy 106.68 163.83) (xy 152.4 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee405f6-3f60-4cee-9325-73dd734ffb13")
+	)
+	(bus
+		(pts
+			(xy 187.96 101.6) (xy 187.96 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afeb4843-7b9f-4468-b92f-0af4e45b1929")
+	)
+	(wire
+		(pts
+			(xy 160.02 123.19) (xy 160.02 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b113f200-6246-4958-ac13-3268df2f5cba")
+	)
+	(bus
+		(pts
+			(xy 154.94 120.65) (xy 157.48 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b12e106d-9e76-4277-a1ab-65996281d61c")
+	)
+	(wire
+		(pts
+			(xy 144.78 86.36) (xy 154.94 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f44948-2bf1-4f4d-aa29-38e230eb9fe1")
+	)
+	(bus
+		(pts
+			(xy 111.76 120.65) (xy 114.3 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ca3a90-c5fc-4d4b-b067-7135460cec3e")
+	)
+	(wire
+		(pts
+			(xy 190.5 63.5) (xy 200.66 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6eef11d-7276-4264-8ca3-341c5050bb66")
+	)
+	(bus
+		(pts
+			(xy 190.5 120.65) (xy 193.04 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84d6df0-008f-4f58-80f9-df3679b8dbf6")
+	)
+	(wire
+		(pts
+			(xy 124.46 76.2) (xy 124.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba902124-147d-46da-99e4-b6cbd637f94d")
+	)
+	(bus
+		(pts
+			(xy 142.24 104.14) (xy 142.24 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb355bc0-5dfa-430b-8d4b-e45cbafe7ce0")
+	)
+	(bus
+		(pts
+			(xy 149.86 120.65) (xy 152.4 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc10bb93-086e-4403-8317-1f737eef1004")
+	)
+	(bus
+		(pts
+			(xy 187.96 55.88) (xy 187.96 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb146b1-01d7-487a-a10c-e9b4f6ef3e1d")
+	)
+	(wire
+		(pts
+			(xy 99.06 116.84) (xy 109.22 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "befac067-6d50-4335-9235-b34edbfc2e8b")
+	)
+	(wire
+		(pts
+			(xy 78.74 106.68) (xy 78.74 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c036b28a-57ef-47d8-b72d-00b6b060448c")
+	)
+	(wire
+		(pts
+			(xy 53.34 76.2) (xy 63.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c04028ea-fa47-49d2-91a4-2d74f75fbebe")
+	)
+	(wire
+		(pts
+			(xy 152.4 123.19) (xy 152.4 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e91446-1cf7-47a1-813b-6cbc069c01c0")
+	)
+	(bus
+		(pts
+			(xy 50.8 43.18) (xy 50.8 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12d1fd4-85f3-4413-b80d-0e88fb92f068")
+	)
+	(wire
+		(pts
+			(xy 78.74 45.72) (xy 78.74 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17e032a-a969-463e-ade7-175730e93cc7")
+	)
+	(wire
+		(pts
+			(xy 190.5 154.94) (xy 180.34 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e6bf7b-c380-4108-9c51-0a24fc8d88cd")
+	)
+	(wire
+		(pts
+			(xy 144.78 45.72) (xy 154.94 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b8d2ea-c05a-4d8b-bb03-24ef95b06ef3")
+	)
+	(wire
+		(pts
+			(xy 184.15 143.51) (xy 184.15 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7bc774e-9701-402b-b2a8-306d48c011a3")
+	)
+	(wire
+		(pts
+			(xy 104.14 160.02) (xy 149.86 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8454465-5cc5-4a16-a8a2-f8ee743ce1ab")
+	)
+	(bus
+		(pts
+			(xy 96.52 83.82) (xy 96.52 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ecd26a-43ba-41c8-a8c3-faf7415d87d7")
+	)
+	(bus
+		(pts
+			(xy 187.96 60.96) (xy 187.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e93d93-9a7c-4e71-8129-b7af696c1f92")
+	)
+	(bus
+		(pts
+			(xy 96.52 114.3) (xy 96.52 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae36965-d356-4484-8c86-ab402408204c")
+	)
+	(wire
+		(pts
+			(xy 127 154.94) (xy 127 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1a5e37-51fd-4711-a859-765424ec726c")
+	)
+	(bus
+		(pts
+			(xy 50.8 120.65) (xy 53.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2a96ae-2c53-4152-84fd-6cd300d4986c")
+	)
+	(wire
+		(pts
+			(xy 58.42 160.02) (xy 58.42 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7f4ca9-0a71-4864-85d8-749ff477b1a4")
+	)
+	(wire
+		(pts
+			(xy 172.72 154.94) (xy 172.72 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53ef451-087a-4407-b88e-058094867707")
+	)
+	(bus
+		(pts
+			(xy 55.88 120.65) (xy 58.42 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d57b9f74-0783-4d86-92b1-ec7157773e85")
+	)
+	(wire
+		(pts
+			(xy 144.78 55.88) (xy 154.94 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d07986-dc4c-4aa5-80b8-bf7949c38542")
+	)
+	(bus
+		(pts
+			(xy 50.8 38.1) (xy 50.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d603fe80-60ff-4d17-8db6-237a605efc5d")
+	)
+	(wire
+		(pts
+			(xy 60.96 154.94) (xy 60.96 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d634f7a7-f821-40a1-8c2f-2770db053f56")
+	)
+	(wire
+		(pts
+			(xy 53.34 45.72) (xy 63.5 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7e4e598-a4a9-4ed7-be07-e95fa89f5c74")
+	)
+	(bus
+		(pts
+			(xy 58.42 120.65) (xy 60.96 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d911446d-b951-4872-9056-afcb7a14e55a")
+	)
+	(wire
+		(pts
+			(xy 124.46 55.88) (xy 124.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d92b2ae0-7634-45f8-a77d-f1dbca60c0c0")
+	)
+	(wire
+		(pts
+			(xy 53.34 116.84) (xy 63.5 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d965eb7f-ccdf-4500-8fde-435db6579abb")
+	)
+	(wire
+		(pts
+			(xy 78.74 86.36) (xy 78.74 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da24cdaf-d74a-40ec-89c4-902beb1938ed")
+	)
+	(wire
+		(pts
+			(xy 81.28 154.94) (xy 81.28 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db105672-9d4a-4e9c-acb4-4b0ec88a89bc")
+	)
+	(wire
+		(pts
+			(xy 124.46 106.68) (xy 124.46 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db73c8d1-9651-4997-9bcd-0c2006dc7ee2")
+	)
+	(wire
+		(pts
+			(xy 71.12 123.19) (xy 71.12 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd72803-118d-4c6c-945a-aa488aba5758")
+	)
+	(wire
+		(pts
+			(xy 149.86 123.19) (xy 149.86 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddff8f8f-868b-4bed-8663-d9e616552e55")
+	)
+	(bus
+		(pts
+			(xy 144.78 120.65) (xy 147.32 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e11a6de9-0dd2-4af1-bd89-8dec0350894b")
+	)
+	(wire
+		(pts
+			(xy 180.34 134.62) (xy 167.64 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1cb8c10-8045-4c03-8006-7c4e68fd0988")
+	)
+	(wire
+		(pts
+			(xy 68.58 123.19) (xy 68.58 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e259a093-558b-486e-a3db-a5ad7edce11f")
+	)
+	(wire
+		(pts
+			(xy 66.04 162.56) (xy 66.04 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e354e106-aeb2-4a30-8de5-756f3e66ec84")
+	)
+	(wire
+		(pts
+			(xy 157.48 162.56) (xy 157.48 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e41a239d-abb1-403c-af01-85bced4f69ae")
+	)
+	(wire
+		(pts
+			(xy 138.43 144.78) (xy 139.7 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d4d914-27b7-4dd7-89c6-7111b990af67")
+	)
+	(wire
+		(pts
+			(xy 58.42 123.19) (xy 58.42 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb9d0ce4-128a-49e6-9933-c47cc08b1e13")
+	)
+	(wire
+		(pts
+			(xy 144.78 154.94) (xy 134.62 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec5602c8-e1c6-48b3-bceb-933d7c4bcd79")
+	)
+	(wire
+		(pts
+			(xy 53.34 123.19) (xy 53.34 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d06212-32dc-4fd5-9a9c-46071442220c")
+	)
+	(wire
+		(pts
+			(xy 170.18 106.68) (xy 170.18 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33592c9-2bef-4e53-b723-a588dc88e4e7")
+	)
+	(bus
+		(pts
+			(xy 96.52 43.18) (xy 96.52 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c2a860-fb49-4e91-9ae4-6516cc14c9c2")
+	)
+	(wire
+		(pts
+			(xy 134.62 154.94) (xy 134.62 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f414090a-4b90-447d-9c70-2558538a635c")
+	)
+	(wire
+		(pts
+			(xy 124.46 45.72) (xy 124.46 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4d82ac1-d364-4d9b-8907-e19da08d571f")
+	)
+	(wire
+		(pts
+			(xy 109.22 123.19) (xy 109.22 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f609919c-6247-4c55-bc74-dcbc7040e71b")
+	)
+	(wire
+		(pts
+			(xy 99.06 66.04) (xy 109.22 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa59b70f-dc1e-4016-9ed1-64174e928121")
+	)
+	(wire
+		(pts
+			(xy 134.62 134.62) (xy 121.92 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba513c2-b3c1-4463-bec8-cf01559303f5")
+	)
+	(wire
+		(pts
+			(xy 99.06 86.36) (xy 109.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf762a8-dedc-4bb7-97b1-2c99466cf720")
+	)
+	(wire
+		(pts
+			(xy 81.28 154.94) (xy 81.28 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff20b88e-31d9-4ec8-afc1-af05457d554e")
+	)
+	(label "Register3-0"
+		(at 190.5 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "006e544f-e7e4-4889-8be5-bc673866825c")
+	)
+	(label "Register3-4"
+		(at 190.5 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "031e4e24-4b42-4766-8d02-d66d44c75327")
+	)
+	(label "Register1-6"
+		(at 114.3 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14e9922f-8ba5-472d-8bb5-653c7c313b63")
+	)
+	(label "Register3-3"
+		(at 198.12 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "178c4152-b4d4-456e-af84-a20f7b349ce1")
+	)
+	(label "Register3-4"
+		(at 200.66 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19788633-2922-4456-ba0c-251268768342")
+	)
+	(label "Register0-5"
+		(at 66.04 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d6a9c67-ac48-4559-a3bb-54f98dbce1d4")
+	)
+	(label "Register1-3"
+		(at 99.06 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "219cc409-55ab-4e3c-b93a-86cd51a86d3b")
+	)
+	(label "Register0-6"
+		(at 68.58 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e0f9531-dd06-4ae3-84e7-6b11c2e50cf3")
+	)
+	(label "Register1-5"
+		(at 111.76 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ea54980-d077-48c9-8d4f-795ac7dac076")
+	)
+	(label "Register1-7"
+		(at 116.84 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33a267f1-99e7-4dd5-a560-a472ea037c19")
+	)
+	(label "Register2-1"
+		(at 147.32 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33cc7d27-f9ee-46cf-bff3-7dfefb99d0c4")
+	)
+	(label "Register3-1"
+		(at 193.04 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3465a8e3-a9ce-4796-b42a-624ade1fe7d3")
+	)
+	(label "Register0-[0..7]"
+		(at 50.8 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37cc1445-41ef-4c76-9e09-272e6bc478b4")
+	)
+	(label "Register2-7"
+		(at 162.56 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38a60915-ad64-42d8-8065-c627543750b6")
+	)
+	(label "Register1-4"
+		(at 99.06 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a98528a-1d45-49a8-ad18-143f28ff88b7")
+	)
+	(label "Register0-7"
+		(at 53.34 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cc977bb-b4c3-4d87-aadc-5aed1a098930")
+	)
+	(label "Register2-4"
+		(at 154.94 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ec67aff-3540-4ab5-b21d-bdba1eaf1224")
+	)
+	(label "Register0-1"
+		(at 53.34 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "402a2e76-8e21-4be1-9120-1821f8ad8080")
+	)
+	(label "Register1-2"
+		(at 99.06 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44bf4216-ca3b-49d9-b45f-b32fd61fd462")
+	)
+	(label "Register2-4"
+		(at 144.78 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47da1959-8a35-42ca-a783-40b9933cef3b")
+	)
+	(label "Register1-3"
+		(at 106.68 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4afceb15-3b03-4b60-9695-01343e7f55f7")
+	)
+	(label "Register2-6"
+		(at 160.02 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "522d82be-a109-49c8-8505-c9f53b4d21d9")
+	)
+	(label "Register0-4"
+		(at 63.5 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52aaac13-462d-40cb-9ff1-80a572d9e9e2")
+	)
+	(label "Register3-2"
+		(at 190.5 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5464b7b8-70d9-4233-b093-3a4b7ae427ea")
+	)
+	(label "Register2-0"
+		(at 144.78 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "551debcd-4790-48bb-a716-5994c1fda8f0")
+	)
+	(label "Register1-6"
+		(at 99.06 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ad8baeb-e019-415b-8135-64f74a27f6c3")
+	)
+	(label "Register0-3"
+		(at 60.96 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "603ddf9a-1d6c-4fed-9c13-d559a9252c64")
+	)
+	(label "Register0-0"
+		(at 53.34 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65e06afb-86bc-4ee9-97af-9019a7a0d509")
+	)
+	(label "Register2-5"
+		(at 144.78 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67a06276-f1a8-48fe-8650-549e60bc363b")
+	)
+	(label "Register1-0"
+		(at 99.06 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69b6f178-5027-45be-b782-95c996dfa116")
+	)
+	(label "Register0-3"
+		(at 53.34 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b2cc134-7f40-405a-8027-5e498e93cd84")
+	)
+	(label "Register3-2"
+		(at 195.58 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ba009d7-a77f-4a09-9677-8e1e214d309b")
+	)
+	(label "Register2-5"
+		(at 157.48 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fe618e4-f030-4f1b-b4b6-e531cb6f9bb7")
+	)
+	(label "Register2-6"
+		(at 144.78 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "703e6a49-3592-45db-82a5-919e4597608a")
+	)
+	(label "Register1-1"
+		(at 99.06 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76fce3cf-3f17-4f49-a835-750422571318")
+	)
+	(label "Register2-[0..7]"
+		(at 142.24 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80af34a8-7bce-47c8-b12f-5e8c2476086b")
+	)
+	(label "Register0-0"
+		(at 53.34 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81c6a94f-b496-4200-a689-60218e13730f")
+	)
+	(label "Register0-6"
+		(at 53.34 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8693a103-cbb6-44ba-aad4-a487f646a051")
+	)
+	(label "Register3-1"
+		(at 190.5 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87b95190-f283-4523-b3b4-9761c87febfe")
+	)
+	(label "Register1-0"
+		(at 99.06 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8806c1df-1d4c-48bb-82ac-7ca500259e2c")
+	)
+	(label "Register2-3"
+		(at 152.4 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bcfca2d-d41f-48df-a333-244663176681")
+	)
+	(label "Register2-1"
+		(at 144.78 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e01d4e7-567c-40e2-b523-4c5cc469a7eb")
+	)
+	(label "Register1-[0..7]"
+		(at 96.52 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a406f2f-4d3c-4e59-a50b-64bbd7469691")
+	)
+	(label "Register0-2"
+		(at 58.42 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e9b1f20-0e40-4f5e-8b3f-f8c4113d8cae")
+	)
+	(label "Register0-2"
+		(at 53.34 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f5388db-d394-4b70-8050-3c9a7f289e26")
+	)
+	(label "Register3-[0..7]"
+		(at 187.96 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2fe348a-4c62-475c-b575-9963b1fcfa72")
+	)
+	(label "Register0-5"
+		(at 53.34 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a948ad5f-5308-406c-abbd-01c4ee991062")
+	)
+	(label "Register1-1"
+		(at 101.6 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa6ae429-9f4f-4ba2-b984-85464fe90842")
+	)
+	(label "Register1-4"
+		(at 109.22 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aab437fe-8003-4859-8c55-9936944d016f")
+	)
+	(label "Register0-7"
+		(at 71.12 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b08d353f-c179-4234-8aaa-5a6fa07c03f5")
+	)
+	(label "Register0-1"
+		(at 55.88 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b77e897d-b4c7-4fee-8eef-be1082b41a5a")
+	)
+	(label "Register2-2"
+		(at 149.86 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcc38fde-097f-47ae-9b3c-29633666ebc9")
+	)
+	(label "Register2-2"
+		(at 144.78 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfd55fb7-b878-48bf-b4e3-23ff016c0dfb")
+	)
+	(label "Register2-3"
+		(at 144.78 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5525de8-8705-40de-9605-84b65bb88f2a")
+	)
+	(label "Register3-5"
+		(at 203.2 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c94e7ed1-3754-4d70-946a-74cee07df9ce")
+	)
+	(label "Register3-3"
+		(at 190.5 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "caf39f0d-fbe1-41d5-b569-dccaf0dcc2f8")
+	)
+	(label "Register1-2"
+		(at 104.14 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb26d165-a5fd-4996-a9c7-bb243c0e2e54")
+	)
+	(label "Register2-0"
+		(at 144.78 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cee870df-56b1-40d4-99aa-b4dbb7ee841b")
+	)
+	(label "Register0-4"
+		(at 53.34 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2326828-4f25-4d3e-855a-27f3aa9ef269")
+	)
+	(label "Register1-5"
+		(at 99.06 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbe58f94-50c7-4287-b4dc-1ce2b69ceb1c")
+	)
+	(label "Register1-7"
+		(at 99.06 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc4b0b2e-6e1f-4b9f-b2fb-1fbc44f0b524")
+	)
+	(label "Register3-5"
+		(at 190.5 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de637479-dfc2-45cf-8ab9-d06637fdeee2")
+	)
+	(label "Register3-0"
+		(at 190.5 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f894c205-ffea-4116-87d1-2c20fc864e54")
+	)
+	(label "Register2-7"
+		(at 144.78 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa0ffa72-b890-4b60-933b-dfd1ae8592f5")
+	)
+	(global_label "INPUT"
+		(shape input)
+		(at 53.34 158.75 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47c3da6a-274c-400a-8d15-4685c63811ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 167.2386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SRCLK"
+		(shape input)
+		(at 58.42 162.56 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a70a9a0c-d253-4c7d-a2ab-7d1f9c421a22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.42 171.5928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCLK"
+		(shape input)
+		(at 66.04 165.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e10864c8-c6b1-4bc2-8eb0-770c33ff0536")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.04 172.9233 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{SRCLR}"
+		(shape input)
+		(at 60.96 166.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e64c99f9-dadd-4764-b590-db497b130ddf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.96 175.4028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 166.37 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01eaadd7-f893-421c-a274-09ffddd63a7f")
+		(property "Reference" "R20"
+			(at 166.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 166.37 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5bc99573-18cf-4f19-b316-9800fecc7eb4")
+		)
+		(pin "1"
+			(uuid "31e58fa1-c979-4190-b3cb-52b779cfbc33")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 166.37 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b439c7d-f7a0-401e-bf4b-6d4a4f183d56")
+		(property "Reference" "R17"
+			(at 166.37 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 166.37 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 166.37 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9287c1d-01a2-41bb-9b09-c6f5080bb307")
+		)
+		(pin "1"
+			(uuid "545c4665-4da4-4af6-aa24-3bbda5be511b")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 113.03 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1746c8a8-58d8-4306-8800-e318618fa9c9")
+		(property "Reference" "D46"
+			(at 111.4425 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 111.4425 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 113.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 113.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e03b18b-b621-41cf-bc91-185dd0113b6e")
+		)
+		(pin "1"
+			(uuid "f60a6b2a-809f-4af4-acaf-6d8ee3fcb7bb")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 67.31 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19004724-1273-4364-8990-4f7ac8a35688")
+		(property "Reference" "D36"
+			(at 65.7225 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 65.7225 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09ac618e-729a-4f69-9799-29f673023995")
+		)
+		(pin "1"
+			(uuid "1f6a783f-9595-4bcf-8d93-627281250321")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 204.47 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "195b0830-abe1-4d97-90f5-f964a6765457")
+		(property "Reference" "D56"
+			(at 202.8825 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 202.8825 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 204.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 204.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 204.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90a1cd40-f6f2-4cf8-9308-0fd315527763")
+		)
+		(pin "1"
+			(uuid "d5961453-ca7a-47c4-8f94-f5b3dad2ebf5")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 113.03 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a8559d8-de11-4990-83ff-825529ec58b1")
+		(property "Reference" "D45"
+			(at 111.4425 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 111.4425 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 113.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 113.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ab04189-2b2e-4361-b7b9-b7dfb69857ef")
+		)
+		(pin "1"
+			(uuid "c3590097-a0eb-41dd-8422-8d2b3dbaa2b1")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 120.65 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f425d1e-ea41-41de-a531-36c85ad153f4")
+		(property "Reference" "R9"
+			(at 120.65 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 120.65 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 120.65 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c4f9567-6662-4d33-9d7d-ce140879308d")
+		)
+		(pin "1"
+			(uuid "e5777864-ebf9-4b1d-b9ab-d4e7aac26ecc")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 166.37 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23b8aa25-297a-48ae-918b-8c9b4c25e24c")
+		(property "Reference" "R24"
+			(at 166.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 166.37 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 166.37 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7cb5bfda-7d92-40fe-ba68-2e08b8073f73")
+		)
+		(pin "1"
+			(uuid "2df8b9f7-900f-46c8-bb53-b274812b3903")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 158.75 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2559902d-8e4d-4af4-b666-315326804932")
+		(property "Reference" "D48"
+			(at 157.1625 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 157.1625 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 158.75 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 158.75 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ffccacb-7fd1-475d-bba1-089eb665c048")
+		)
+		(pin "1"
+			(uuid "c56f0971-6e5a-4064-870c-e99d2fa68d3c")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 113.03 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25aafabb-97d4-487f-be06-b8684bce720c")
+		(property "Reference" "D44"
+			(at 111.4425 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 111.4425 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 113.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 113.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03686164-19a2-4d29-848b-17bfc46dc110")
+		)
+		(pin "1"
+			(uuid "bae276e3-630b-4da0-b6d8-b14e9b06ae47")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 170.18 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "286d779a-9eb3-430a-ad43-cee0616813c2")
+		(property "Reference" "#PWR03"
+			(at 170.18 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 170.18 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 170.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45fa3954-b83d-4587-bf75-7e6086c15381")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 113.03 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29d224b1-4817-4788-9e32-17819c37b342")
+		(property "Reference" "D42"
+			(at 111.4425 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 111.4425 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0585b8d-7982-4c7c-954f-80fba58be456")
+		)
+		(pin "1"
+			(uuid "726ce97b-f455-489c-9052-4cc91c36bfe1")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 120.65 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2aee78d9-ed86-4d21-828b-53fd48761886")
+		(property "Reference" "R16"
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 120.65 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78ae43d0-ffaf-4f9b-907f-a7f82909f0e4")
+		)
+		(pin "1"
+			(uuid "fb7d4be3-981e-4513-87f7-57d4313050c1")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 166.37 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b1b011b-fae8-4da9-80ef-40aeefbf8d71")
+		(property "Reference" "R23"
+			(at 166.37 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 166.37 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c90accfa-bb6c-4817-84af-48b0503695f8")
+		)
+		(pin "1"
+			(uuid "e7506e48-e26f-49fe-a3f5-34674d636de3")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 158.75 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dcfbd54-6823-4739-9ad2-ac36fb9e7c02")
+		(property "Reference" "D53"
+			(at 157.1625 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 157.1625 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e29852b-039f-41e6-a742-77ff01d921bb")
+		)
+		(pin "1"
+			(uuid "edfa86b1-fac9-4bd3-9f1e-79dca01190f1")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 127 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2de745c4-a2e8-45ba-851c-0de063b28236")
+		(property "Reference" "#PWR010"
+			(at 127 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 127 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c42900f1-e10c-4e6e-acfa-18603e555588")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 113.03 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f1efbdc-8865-4958-b9a4-fe13eddbb824")
+		(property "Reference" "D41"
+			(at 111.4425 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 111.4425 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e3263e98-c451-4420-8c2b-2e4976579a8c")
+		)
+		(pin "1"
+			(uuid "86403e86-fe22-4a27-9ce8-1ade1719b3ca")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 218.44 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33fed710-74af-4757-996e-33b8de4e4762")
+		(property "Reference" "#PWR012"
+			(at 218.44 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 218.44 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 218.44 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9df5528-b08d-4a4d-a6e8-f92eaf45f156")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 67.31 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38953974-160d-4754-b362-9f551a8e296a")
+		(property "Reference" "D35"
+			(at 65.7225 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 65.7225 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d879205-2121-439d-875c-d0a2982427f0")
+		)
+		(pin "1"
+			(uuid "04ff1bcc-0832-4334-802a-306cdd9d2d02")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 113.03 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b921084-93bc-467b-86d1-3cde0d75d1a0")
+		(property "Reference" "D39"
+			(at 111.4425 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 111.4425 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f35e049-baf8-4115-922a-438fefa8fc8e")
+		)
+		(pin "1"
+			(uuid "2519e0c6-7c6f-46d6-aa8e-4d9dc12a5e25")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 166.37 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bccfafe-668f-461f-956a-b8b5d56280b7")
+		(property "Reference" "R19"
+			(at 166.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 166.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 166.37 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cab1adf1-0a88-42be-8bbf-09a250423c75")
+		)
+		(pin "1"
+			(uuid "22c3d0bd-a8fb-4cb7-ace4-890fa6f7fa29")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 67.31 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d0e165b-d665-4e39-851c-2d90ff4aead2")
+		(property "Reference" "D33"
+			(at 65.7225 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 65.7225 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7cae5fc-4337-45e3-bc68-7741e804cdee")
+		)
+		(pin "1"
+			(uuid "9840045e-147f-4599-9ff6-f44a147faf55")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 74.93 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "491932ca-ad3d-41f1-b2ff-bb2ee4086c8a")
+		(property "Reference" "R1"
+			(at 74.93 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 74.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 74.93 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "799e0174-f3d1-4624-8f8c-7271a283c0d1")
+		)
+		(pin "1"
+			(uuid "41f99c91-5e57-4e62-a35a-eb33e6570f1e")
+		)
+		(instances
+			(project ""
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 158.75 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d1f33a0-803c-4f36-8fd0-4880793e1bad")
+		(property "Reference" "D49"
+			(at 157.1625 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 157.1625 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 158.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 158.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7aba0cac-c3fe-4d3f-99e4-0f4f1b728b51")
+		)
+		(pin "1"
+			(uuid "1bf9a2e8-56ce-4048-92a4-d862fef011d9")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 212.09 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4efc33af-69b7-4752-b1bd-b25dc45c6602")
+		(property "Reference" "R26"
+			(at 212.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 212.09 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 212.09 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 212.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28e5d41a-410c-411d-a7c8-68e7672fd6f2")
+		)
+		(pin "1"
+			(uuid "0704ba8d-7947-49fe-86ce-de5e6b9863ca")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 138.43 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53cc9e19-6e66-4d06-b4b1-836bf529be63")
+		(property "Reference" "#PWR07"
+			(at 138.43 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 138.43 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 138.43 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0aa397b-b079-43a3-8904-2b2c4fd4133a")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 46.99 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60d0f0cc-3cf2-4bcc-960b-8cd3baf61cbd")
+		(property "Reference" "#PWR05"
+			(at 46.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 46.99 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 46.99 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a76555c-e13a-4e49-9934-0e23c4c4cb81")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 158.75 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60d1f8e1-d053-4517-9a7f-5f3303ae36f6")
+		(property "Reference" "D47"
+			(at 157.1625 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 157.1625 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 158.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 158.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4aa9dab4-1c6d-4b21-83a2-cd1541723b23")
+		)
+		(pin "1"
+			(uuid "0ee60aaf-b321-4cde-8914-9e4716622f5f")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 215.9 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "625f9773-a5cd-4a5d-85dc-52d75c2741f7")
+		(property "Reference" "#PWR04"
+			(at 215.9 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 215.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 215.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7e84a7d-bdc7-4624-8c33-785b65cfbf52")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 120.65 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62ea2df9-4b46-4485-85d5-b1b1822ca8ca")
+		(property "Reference" "R10"
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 120.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 120.65 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "365e88db-c288-446c-a3f6-472ef3a6e467")
+		)
+		(pin "1"
+			(uuid "a1a98cc8-f8e3-45c4-b5e2-dce0a61dabc5")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 166.37 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "668d6563-4fd9-4ee4-9279-9cbeb13c6d03")
+		(property "Reference" "R18"
+			(at 166.37 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 166.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 166.37 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cad123a2-492d-43f3-b32e-961b9618f451")
+		)
+		(pin "1"
+			(uuid "d96a0499-51b9-4e9e-9576-398333b9a0fb")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 67.31 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6786da1a-3917-45c2-bfc3-ad15794f2978")
+		(property "Reference" "D32"
+			(at 65.7225 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 65.7225 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 67.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 67.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 67.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "521fe74b-4ace-4f26-8ff4-cb8a79a19f9b")
+		)
+		(pin "1"
+			(uuid "2efb8dd9-e9ee-4f6d-9c4a-ea2ddb468154")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 120.65 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b3eaf38-50b2-4117-9b74-33d9e12cb8fb")
+		(property "Reference" "R11"
+			(at 120.65 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 120.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 120.65 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d14f7d9-dbb2-4f58-a7c2-0e21249517a9")
+		)
+		(pin "1"
+			(uuid "0222ac26-f07a-4afc-bffe-6c12266739b0")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 204.47 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cd3a6fe-b3f5-4926-8c73-3d8aee0d527e")
+		(property "Reference" "D57"
+			(at 202.8825 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 202.8825 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02dcda47-5609-4f96-94a8-839f4dee6fcc")
+		)
+		(pin "1"
+			(uuid "a03d11ba-b8e7-4128-b126-a4be8b6fa8f3")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 74.93 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dedbf97-95c5-4e7f-a54e-be96f365f879")
+		(property "Reference" "R5"
+			(at 74.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 74.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 74.93 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4999c1a8-071c-442e-b03f-982e9ed2329d")
+		)
+		(pin "1"
+			(uuid "a3d8db0b-2cae-4d06-8ba3-391dcc5b3c70")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 158.75 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "731d0a9d-2efb-4315-8179-404ebd216f52")
+		(property "Reference" "D51"
+			(at 157.1625 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 157.1625 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "333e7627-eb43-48cf-a4b5-1c37daaafe66")
+		)
+		(pin "1"
+			(uuid "ceef4a3e-f96e-4d1b-96cb-873d2e6cb015")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 74.93 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "752617d3-ecdb-446e-b225-63184b210dd4")
+		(property "Reference" "R2"
+			(at 74.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 74.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 74.93 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba6c5075-b256-4948-b3b1-93cc7509f780")
+		)
+		(pin "1"
+			(uuid "64a71cec-ed6a-4754-9d26-46b567bc15bc")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 204.47 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a373a1c-3ede-4a8c-a121-ed1b16cda60c")
+		(property "Reference" "D59"
+			(at 202.8825 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 202.8825 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 204.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 204.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 204.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b3a9595-3d7e-4feb-a696-35d36b07b985")
+		)
+		(pin "1"
+			(uuid "766254e6-2ed8-41e3-ab16-32fe7f160fbe")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 120.65 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b632273-59c9-4bb6-a43a-c1d94ec50614")
+		(property "Reference" "R12"
+			(at 120.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 120.65 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 120.65 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff3c8eb2-48b8-413e-9dc9-21846b7edebb")
+		)
+		(pin "1"
+			(uuid "545743cc-4d15-4e85-b5f7-98c387c01a76")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 74.93 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ef62c00-13e6-481c-85c9-71cfd4138004")
+		(property "Reference" "R6"
+			(at 74.93 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 74.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 74.93 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10a77605-097b-48c7-9a15-036260756b95")
+		)
+		(pin "1"
+			(uuid "694c6376-d59b-42dc-bf5e-fdd6e7344311")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 74.93 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8585be02-e5ed-4f90-9bdb-73b3e368ae56")
+		(property "Reference" "R8"
+			(at 74.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 74.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 74.93 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70ec6237-f135-4051-b92c-e2b6aab9e661")
+		)
+		(pin "1"
+			(uuid "364266b3-2664-4f92-a5af-9aba77b01bb9")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 74.93 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85e6b5e9-65f2-4bd2-a31a-39256c746b9d")
+		(property "Reference" "R3"
+			(at 74.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 74.93 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 74.93 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b6ec715-d321-4ef0-a771-75709869a633")
+		)
+		(pin "1"
+			(uuid "ebd9fc4f-4258-46d0-b810-5da87d3b48c4")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 124.46 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8761b3f2-2db7-41ff-a063-d95e1e257e53")
+		(property "Reference" "#PWR02"
+			(at 124.46 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 124.46 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 124.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56da998f-7181-4334-ae84-98acae3e21f6")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 67.31 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ac175ec-e205-4dcb-9a81-27f39b08e2ae")
+		(property "Reference" "D34"
+			(at 65.7225 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 65.7225 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 67.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 67.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 67.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e7fcad1-0b89-4789-afc4-8b9ddb31e464")
+		)
+		(pin "1"
+			(uuid "19c5b503-f8aa-4c0f-a2c0-5e89eecb1f36")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 74.93 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8af8e84a-e94e-4c87-aee2-6d0a51ecf1e2")
+		(property "Reference" "R4"
+			(at 74.93 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 74.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 74.93 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed55c75f-f9ff-4250-aaf6-7f82b6ce21de")
+		)
+		(pin "1"
+			(uuid "f49f6487-b546-412a-9944-fcc1a295a9a3")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 212.09 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "919e2673-bf6b-4cad-b3ad-d2b2fc787429")
+		(property "Reference" "R28"
+			(at 212.09 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 212.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 212.09 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 212.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "145a55e9-afc3-4c6f-96f2-c033ff81bbe1")
+		)
+		(pin "1"
+			(uuid "9ffb9867-8fa6-43f4-823d-a71d1fe01978")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 212.09 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9827c4ff-5926-44e7-8ee3-6c1dc4b57bb7")
+		(property "Reference" "R29"
+			(at 212.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 212.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 212.09 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 212.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3edc91ed-6ea6-4f59-9f58-a6e7734c65d7")
+		)
+		(pin "1"
+			(uuid "eb75657b-1f80-458f-af10-ba2743020ea5")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC595")
+		(at 63.5 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9952ed76-05f4-427b-a189-33d449c08ba7")
+		(property "Reference" "U2"
+			(at 64.516 145.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595"
+			(at 64.516 142.494 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 63.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+			(at 63.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 63.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "b75a9785-1112-476a-af73-2d99517edec9")
+		)
+		(pin "3"
+			(uuid "44157222-2901-4b6d-abd4-6f4c0677d4b3")
+		)
+		(pin "9"
+			(uuid "7f776be6-0cfb-456b-907a-dd486058b92a")
+		)
+		(pin "1"
+			(uuid "568b8cc4-3781-486e-8fa1-8d4a4061dd7e")
+		)
+		(pin "7"
+			(uuid "3eb728a1-aa5b-47d2-80d7-f9f0bbe8b1e3")
+		)
+		(pin "11"
+			(uuid "2e649667-76f8-4f08-af5c-54bacf7f3b7d")
+		)
+		(pin "6"
+			(uuid "a66e166e-55fb-4a74-9448-55aba0b95952")
+		)
+		(pin "15"
+			(uuid "6a187d3c-d5b4-404c-becf-b417b43c191d")
+		)
+		(pin "2"
+			(uuid "65423238-298c-48f8-a95b-e888adccf271")
+		)
+		(pin "10"
+			(uuid "4ced4dda-8e7a-4253-a71f-23b36a36e696")
+		)
+		(pin "12"
+			(uuid "17f5c056-de8c-459c-bc72-3a1518fc617e")
+		)
+		(pin "13"
+			(uuid "dbe429fb-4df8-4323-b8e6-dd571ba59aeb")
+		)
+		(pin "16"
+			(uuid "bc750bd2-8605-46c1-bfe7-dabca16f000b")
+		)
+		(pin "8"
+			(uuid "b00de466-fe80-482a-aac7-1b65636ec559")
+		)
+		(pin "4"
+			(uuid "9e87767d-d03d-4b9f-9acf-1ca10b0ea8c3")
+		)
+		(pin "5"
+			(uuid "45573cb5-2f9b-458e-a30d-3ffd7585027a")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 67.31 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1521183-5435-43a5-b90f-05cb0458f6eb")
+		(property "Reference" "D31"
+			(at 65.7225 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 65.7225 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44ee745b-3a25-49f3-8b2d-71469df57b76")
+		)
+		(pin "1"
+			(uuid "344132ac-510e-4a84-bb73-33a05aa4530e")
+		)
+		(instances
+			(project ""
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC595")
+		(at 200.66 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a76f0bcf-762e-458f-abae-33d9bdba1497")
+		(property "Reference" "U5"
+			(at 201.676 144.526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595"
+			(at 201.676 141.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "475bfd96-74af-4f4f-82b3-3c6688565b40")
+		)
+		(pin "3"
+			(uuid "7b33a6c9-3d44-4eaa-b3b7-7b1487e3010f")
+		)
+		(pin "9"
+			(uuid "1c5f0194-4942-4f0a-ac7a-b9fb6cd09034")
+		)
+		(pin "1"
+			(uuid "86389016-6a2c-4a9e-ac13-5cae0f44b136")
+		)
+		(pin "7"
+			(uuid "266c3bfb-f104-4680-9876-e45c85235151")
+		)
+		(pin "11"
+			(uuid "9b187ef2-f39c-4340-953c-ceb367813694")
+		)
+		(pin "6"
+			(uuid "ba0848cb-b276-4745-9006-9550d267ab4d")
+		)
+		(pin "15"
+			(uuid "b13fcb4b-fac3-4567-8c33-4eeed3a22458")
+		)
+		(pin "2"
+			(uuid "ec995571-0224-43b4-b220-147ca55a5f02")
+		)
+		(pin "10"
+			(uuid "aea78244-5354-434c-a73d-2350f549591b")
+		)
+		(pin "12"
+			(uuid "41025b6f-12aa-482b-ac18-01a8cbc312d0")
+		)
+		(pin "13"
+			(uuid "c942e1a4-2400-48c8-a60e-e191f86be1e7")
+		)
+		(pin "16"
+			(uuid "e2f3363a-7c8a-458a-ad36-4ad0c92f7e55")
+		)
+		(pin "8"
+			(uuid "8503380a-5d05-4f8f-b8e2-92e3d09e9b1e")
+		)
+		(pin "4"
+			(uuid "54b8c33b-0915-4b1c-bc57-7d8a9847cb9c")
+		)
+		(pin "5"
+			(uuid "2a0505b4-8e4a-4a01-8ef9-f43ca350b595")
+		)
+		(instances
+			(project ""
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 212.09 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a775e903-ec6a-4f21-a62e-4d42c459c5e9")
+		(property "Reference" "R27"
+			(at 212.09 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 212.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 212.09 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 212.09 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de11e7b6-d475-4a9c-8715-0bdbe092c1d9")
+		)
+		(pin "1"
+			(uuid "dabff0d6-81b7-4864-b91a-f2d95fe06e77")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 113.03 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "addde381-0469-48f1-82b8-f209bfeccedd")
+		(property "Reference" "D40"
+			(at 111.4425 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 111.4425 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 113.03 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 113.03 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6be5c293-559b-4356-802e-c7cbce141eb4")
+		)
+		(pin "1"
+			(uuid "43e37de2-eaeb-4f6a-a19b-21aa93833992")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 120.65 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae03b82f-2c61-4834-b1e6-f54aef9dc5a2")
+		(property "Reference" "R13"
+			(at 120.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 120.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 120.65 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa2c2b58-7446-4b94-8a8d-27ab8db2d236")
+		)
+		(pin "1"
+			(uuid "cd2ed79a-a0bc-42eb-82d2-f96c9a2a1cd9")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 204.47 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b01c2828-c67b-4763-9a50-1ae5047f8414")
+		(property "Reference" "D58"
+			(at 202.8825 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 202.8825 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 204.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 204.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 204.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "37af71a5-4423-4373-b584-e6e27b83ecd8")
+		)
+		(pin "1"
+			(uuid "3fcbc3ca-03ba-48f5-a0f9-6e383783088b")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 81.28 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b03e529b-70f7-431b-889b-f2fd76fc2b88")
+		(property "Reference" "#PWR09"
+			(at 81.28 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 81.28 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 81.28 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8f89dec-181b-4813-8b99-b0c910a91c29")
+		)
+		(instances
+			(project ""
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 158.75 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b77392d4-c13d-439e-8e86-3f04de29a6a4")
+		(property "Reference" "D52"
+			(at 157.1625 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 157.1625 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "07333fb4-e758-4de0-ab10-9a822cfe77ef")
+		)
+		(pin "1"
+			(uuid "0a49e7ff-39a8-4dc4-b21e-852353b0215b")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 158.75 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc438917-5f7d-4992-a009-0f3c9f2c3fd2")
+		(property "Reference" "D54"
+			(at 157.1625 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 157.1625 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 158.75 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 158.75 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "60f58da9-1f1a-4800-8296-8edb6db47e7b")
+		)
+		(pin "1"
+			(uuid "065b5f31-a599-43cf-aca8-a119e88f4b5e")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 212.09 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd6bf7d8-40aa-467e-a4ea-16cddd715f7d")
+		(property "Reference" "R25"
+			(at 212.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 212.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 212.09 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 212.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cc967c45-487f-4052-a817-8a1715185ded")
+		)
+		(pin "1"
+			(uuid "bc68ea35-7690-4e81-9b11-6e740751a1d7")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 172.72 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beec8039-cbe5-4ed9-af9d-d8c4229894c0")
+		(property "Reference" "#PWR011"
+			(at 172.72 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 172.72 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 172.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0600d960-b150-458b-b8ee-84c7911dc0d6")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 158.75 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfffedb6-1b87-4491-9487-adf6be3ef671")
+		(property "Reference" "D50"
+			(at 157.1625 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 157.1625 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 158.75 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 158.75 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 158.75 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b6c0f67-10d4-4c5e-af79-ed02938988e2")
+		)
+		(pin "1"
+			(uuid "9dad5411-c626-4ad0-a56e-5d3bf04b96f8")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 184.15 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c26e158a-9642-4278-8943-23e7ca8e46ff")
+		(property "Reference" "#PWR08"
+			(at 184.15 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 184.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 184.15 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "105325bc-f967-494d-bdcd-a0cdf1582802")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC595")
+		(at 154.94 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c33d8781-138e-4600-a8dd-d2bc21a242a1")
+		(property "Reference" "U4"
+			(at 156.21 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595"
+			(at 156.21 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 154.94 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+			(at 154.94 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 154.94 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "9ec82f9e-31da-48c8-9a7c-906223fb68e5")
+		)
+		(pin "3"
+			(uuid "91ef5f19-a65e-491c-8554-d0e28ae38df3")
+		)
+		(pin "9"
+			(uuid "0e5910a5-1258-4550-9b04-f902544cddc2")
+		)
+		(pin "1"
+			(uuid "56510ad7-730a-4ad3-8f76-548664f3665f")
+		)
+		(pin "7"
+			(uuid "7fddc486-be52-46c9-b797-707cd8987365")
+		)
+		(pin "11"
+			(uuid "36dcb002-3774-4680-9b9e-eb5599a1dee3")
+		)
+		(pin "6"
+			(uuid "89231ca0-6412-4c07-aec7-15d15b7353cb")
+		)
+		(pin "15"
+			(uuid "3f7284dd-1468-4860-b844-edfdd0b13056")
+		)
+		(pin "2"
+			(uuid "db7930a3-5589-40b7-98e3-9e4f149077bd")
+		)
+		(pin "10"
+			(uuid "b16c3ede-5f0f-4fd9-b48c-9935810e6753")
+		)
+		(pin "12"
+			(uuid "89e605b6-b170-41f7-80f6-ea89aa4bfa15")
+		)
+		(pin "13"
+			(uuid "4b7e76d8-9d58-43b1-a8ba-04cc77888404")
+		)
+		(pin "16"
+			(uuid "b762c03d-a9f8-437d-8bdc-96ed1229eefd")
+		)
+		(pin "8"
+			(uuid "d489ec12-7071-41cf-838b-d1b140b44aea")
+		)
+		(pin "4"
+			(uuid "d3738430-ea55-4d04-99c9-dcc7b7b95127")
+		)
+		(pin "5"
+			(uuid "c5e7605f-6fd5-44e3-9d40-32168bd22989")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 204.47 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c39371be-c4bf-4d0d-937a-18cd2776d592")
+		(property "Reference" "D60"
+			(at 202.8825 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 202.8825 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 204.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 204.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 204.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d6c07c5-20fe-4537-af97-f374000a9430")
+		)
+		(pin "1"
+			(uuid "0cd77b8a-f680-4dc4-aa66-4078e168358a")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 166.37 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c719c86e-dede-478d-8210-16d22d865c8e")
+		(property "Reference" "R21"
+			(at 166.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 166.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 166.37 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e89ed21c-d8b1-415a-a2eb-78198189f01f")
+		)
+		(pin "1"
+			(uuid "9a357cfa-e430-4a94-b0d2-cdaa0b0bb228")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 78.74 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd15162a-7b0a-46d9-9ca5-25f8c230b3a7")
+		(property "Reference" "#PWR01"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 78.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 78.74 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4da73019-fd86-49f9-848e-90c3571298dc")
+		)
+		(instances
+			(project ""
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 212.09 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd21a02f-10f1-4533-9529-8b301fa33e0f")
+		(property "Reference" "R30"
+			(at 212.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 212.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 212.09 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 212.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "343b8db6-1d45-43e4-a909-918e0d5a909c")
+		)
+		(pin "1"
+			(uuid "a14f3139-aaf0-44fd-bc7a-3662261aa9cf")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC595")
+		(at 109.22 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cda1666a-e475-4824-a86c-a59768637a6c")
+		(property "Reference" "U3"
+			(at 110.236 145.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595"
+			(at 110.236 142.494 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 109.22 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+			(at 109.22 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 109.22 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "3788ca34-1f21-4781-a61e-7af784ede4c5")
+		)
+		(pin "3"
+			(uuid "c0e5a730-d008-4f63-81fd-289bdcdbb319")
+		)
+		(pin "9"
+			(uuid "69922508-4419-40c8-915f-603878671597")
+		)
+		(pin "1"
+			(uuid "e9dd9ebd-aed7-404d-af7b-5f3bab8e15df")
+		)
+		(pin "7"
+			(uuid "ae4edc29-40c2-41f0-85b8-eca980c9b17b")
+		)
+		(pin "11"
+			(uuid "665e561f-6a92-40f8-b2aa-ac3c68c7c1c2")
+		)
+		(pin "6"
+			(uuid "bf807309-8345-43e4-9564-384bcdf58d91")
+		)
+		(pin "15"
+			(uuid "c94669a7-36b8-4a87-81e0-eb1a668486b8")
+		)
+		(pin "2"
+			(uuid "a4cd4646-00c1-4a1d-b36c-ee114801563e")
+		)
+		(pin "10"
+			(uuid "7dfa0fea-df0d-4acd-8cac-92a6993ba4db")
+		)
+		(pin "12"
+			(uuid "53f2f4c9-8c34-4312-ba56-1e4fa4cef9d2")
+		)
+		(pin "13"
+			(uuid "ddeb7e8a-4359-4523-a7fe-692d451e19c7")
+		)
+		(pin "16"
+			(uuid "d8fd007e-cbb2-4b12-a48e-eaa771ea4170")
+		)
+		(pin "8"
+			(uuid "781ff47a-12ce-4410-a68d-295db0ee41f9")
+		)
+		(pin "4"
+			(uuid "d610b4c7-c35c-46b6-9b36-c7ab2c1f9d93")
+		)
+		(pin "5"
+			(uuid "3ee87af5-4961-4ceb-8fd1-e029d60592a2")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 120.65 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1562265-3eb8-45e6-a95a-4033c8d00819")
+		(property "Reference" "R15"
+			(at 120.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 120.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 120.65 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ffc15571-7b53-42b9-b3f5-bcaabeb57777")
+		)
+		(pin "1"
+			(uuid "89730634-4d44-40b0-8215-221a3c67698f")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 67.31 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da068df3-529f-40da-8188-b95a5e2380a7")
+		(property "Reference" "D38"
+			(at 65.7225 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 65.7225 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2917dce3-57d0-4bbb-85c1-a0aa92db0597")
+		)
+		(pin "1"
+			(uuid "9afe8402-28b8-49fd-b318-9fb9580e8889")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 67.31 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e081a75c-4edb-44cf-98d0-1d410662a9f5")
+		(property "Reference" "D37"
+			(at 65.7225 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 65.7225 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d48c970-41d3-4552-a3c6-875f7484b939")
+		)
+		(pin "1"
+			(uuid "0d751661-5d81-46d1-9346-015c5306cc92")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 120.65 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2f64131-e57b-48f4-ae07-47b8d1cfedf3")
+		(property "Reference" "R14"
+			(at 120.65 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 120.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 120.65 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a9d281e-7205-4208-865e-196f567d7431")
+		)
+		(pin "1"
+			(uuid "cd4fcf81-203e-4706-ba30-a5f67bd05ce5")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 74.93 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e67f2377-2929-4432-ad09-94a9d452f764")
+		(property "Reference" "R7"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 74.93 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68f7348e-6743-4ccd-bc61-91c53e6e6378")
+		)
+		(pin "1"
+			(uuid "475ec37d-d3b9-4d45-9fde-ed73bbe6e35c")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 166.37 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7225afb-fbf7-44a9-967f-e4eba836a30d")
+		(property "Reference" "R22"
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor"
+			(at 166.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 166.37 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79de5efb-89db-4678-aee6-17ee3401ea1d")
+		)
+		(pin "1"
+			(uuid "eb429b97-2a84-4c4d-99ce-d901f1908a80")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 204.47 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "effedd93-78a1-4d38-b8e3-3a31ff475959")
+		(property "Reference" "D55"
+			(at 202.8825 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 202.8825 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8507c46d-8085-4b68-be04-c82d10e0f8ca")
+		)
+		(pin "1"
+			(uuid "33326f19-9f90-4e1f-a4f4-a71100cab25f")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 113.03 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0d60197-4852-4be6-a500-08729048996a")
+		(property "Reference" "D43"
+			(at 111.4425 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 111.4425 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca60eac1-de48-4d5a-a95f-17ea25ffb9eb")
+		)
+		(pin "1"
+			(uuid "6da2af03-b4e2-416a-83d0-198054ac2c70")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 92.71 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f97a59f5-aa50-47a3-bbe1-0ea60128ba79")
+		(property "Reference" "#PWR06"
+			(at 92.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 92.71 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 92.71 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a363629-4d52-4f89-9e95-6d7e04abe20b")
+		)
+		(instances
+			(project "StenKeyboard"
+				(path "/0ae5fe29-cd77-4a45-9ee4-eb184ad4eef3/cf5ebf4e-b06d-4a68-a103-6b6de2a65daf"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
